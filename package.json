@@ -10,7 +10,7 @@
     },
     "repository":{
         "type":"git",
-        "url":"https://github.com/heyonly/cordovaplugins"
+        "url":"https://github.com/heyonly/cordova-plugin-uutest"
     },
     "keywords":[
         "cordova",
