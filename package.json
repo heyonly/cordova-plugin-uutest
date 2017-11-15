@@ -1,0 +1,22 @@
+{
+    "name":"cordova-plugin-uutest",
+    "version":"1.0.0",
+    "description":"Cordova custum plugin test",
+    "cordova":{
+        "id":"cordova-plugin-uutest",
+        "platforms":[
+            "ios"
+        ]
+    },
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/heyonly/cordovaplugins"
+    },
+    "keywords":[
+        "cordova",
+        "heyonly plugins",
+        "policy"
+    ],
+    "author":"1540037043@qq.com",
+    "license":"Apache 2.0"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="cordova-plugin-uutest"
+      version="1.0.0">
+    <name>CocoaPlugin</name>
+    <description>Cordova plugin-test Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,heyonly plugins,policy</keywords>
+
+    <engines>
+      <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    <js-module src="www/testplugin.js" name="testplugin">
+        <clobbers target="testplugin.cocoa" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CocoaPlugin" >
+                <param name="ios-package" value="testplugin"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/ios/CocoaPlugin.m" />
+        <header-file src="src/ios/CocoaPlugin.h" />
+
+
+    </platform>
+
+</plugin>
